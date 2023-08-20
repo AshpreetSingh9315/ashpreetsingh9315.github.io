@@ -133,7 +133,7 @@ a{
     mix-blend-mode: luminosity;
     background-position: center center;
     background-size: cover;
-    background-image: url(IMAGES/IMG-20230221-WA0001.jpg);
+    background-image: url(./IMAGES/mehengi\ editing.png);
     height: 100%;
     width: 45%;
 }
@@ -806,13 +806,19 @@ input::placeholder{
     }
     .typewriter{
         width: 100%;
-        margin: auto;
+        margin: none;
+    }
+    .TypeWriter{
+        margin: 0px !important;
     }
     .main_name{
         width: 100%;
     }
     .typewriter h1{
         padding: 10px;
+    }
+    .typewrite{
+        display: none;
     }
     .content{
         text-align: center;
