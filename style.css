@@ -9,6 +9,7 @@ html {
 
 body{
     background-color:#373b40;
+    font-family: sans-serif;
 }
 
 #loading{
@@ -115,7 +116,7 @@ a{
 .sidebar {
     width: 45%;
 }
-.right{
+.right{ 
     width: 55%;
     width: 55%;
     margin:auto;
@@ -151,7 +152,7 @@ a{
     font-family: 'Rowdies', cursive;
     padding: 100px 0px 80px 60px;
     font-size: 40px;
-    cursor:default;
+    cursor: pointer;
     color: white;
     background-color: #373b40;
     position: relative;
@@ -168,6 +169,7 @@ a{
 }
 .TypeWriter{
     margin-left: 10%;
+    margin-top: 160px;
 }
    /* DEMO-SPECIFIC STYLES */
   .typewriter h1 {
@@ -873,4 +875,28 @@ input::placeholder{
     .card_1{
         width: 100%;
     }
+}
+[class^="typewrite"] {
+	min-height: 200px;
+    font-family: 'Jockey One', sans-serif;  
+    color: #68e0cf;
+    letter-spacing: 6px;
+    font-size: 20px;
+    /* margin: 260px; */
+}
+[class^="wrap"]:after {
+	content: '';
+    color: whitesmoke;
+    font-family: 'Jockey One', sans-serif;  
+	display: inline-block;
+	position: relative;
+	width: 2px;
+	height: 40px;
+	top: 8px;
+	left: 3px;
+}
+
+h1::selection,h2::selection,h3::selection,h4::selection,p::selection,li::selection,a::selection,button::selection ,div::selection,span::selection{
+    color: black;
+    background-color: #68e0cf;
 }
